@@ -1,0 +1,177 @@
+
+#header{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-image: repeating-linear-gradient(220deg,yellow,rgb(15, 184, 15),red)
+}
+#header h3{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+}
+#menu{
+    height: 90px;
+    width: 800px;
+    background-color: turquoise;
+    border: 2px solid red;
+    border-radius: 15px;
+    justify-self: center;
+    margin: 20px;
+}
+#menu li{
+    margin-left: 50%;   
+    font-weight: bold;
+    padding: 0px;
+}
+#con{
+    width: 100%;
+    background-color: aquamarine ;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#con1{
+    display: flex;
+    flex-direction: row;
+}
+.pera{
+    width: 350px;
+    height: 72px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0px 15px;
+    padding: 25px 21px 0px 21px;
+    font-weight: bold;
+    text-align: center;
+}
+.content4{
+    margin: 2px;
+    margin-left: 420px;
+    
+}
+#titletop{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-image: repeating-radial-gradient(circle, yellow, red);
+    margin: 20px 0px;
+}
+#titletop h2{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+}
+#toprank{
+    width: 100%;
+    background-image: radial-gradient(blue,aqua, green);
+    display: flex;
+    justify-content: center;
+}
+.ranker{
+    height: 110px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: 40px 70px;
+}
+.ranker p{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#lastcon{
+    width: 83%;
+    border: 2px solid black;
+    margin: 5px 0px;
+}
+#titlebottem{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+#titlebottem h2{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+#maincon{
+    display: flex;
+    flex-direction: row;
+}
+#midcon{
+    width: 87%;
+}
+#note{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.pera1{
+    width: 358px;
+    height: 70px;
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+.pera2{
+    width: 358px;
+    height: 70px;
+    background-color: lightblue;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+.pera3{
+    width: 358px;
+    height: 70px;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: 135%;
+    color: white;
+}
+#pera4{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+#pera4 p{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    margin: 5px;
+}
+#list{
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 5px;
+    padding-top: 10PX;
+    padding-right: 10PX;
+    text-decoration: underline;
+}
+#fotter{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+   margin: 0;
+}
+#fotter h3{
+    margin: 0px;
+    padding: 0px;
+}
