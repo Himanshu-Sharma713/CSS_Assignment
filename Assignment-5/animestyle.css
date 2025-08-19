@@ -1,0 +1,112 @@
+body{
+     background-image: linear-gradient(to right, sandybrown, white, green);
+     background-size: cover;
+}
+#header{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    font-size: 210%;
+    font-weight: bolder;
+}
+#head1{
+    background-color: sandybrown;
+    margin-right: 5px;
+}
+#head2{
+    background-color: white;
+    margin-right: 5px;
+}
+#head3{
+    background-color: green;
+    margin-right: 5px; 
+}
+#sky{
+    height: 445px;
+    width: 100%;
+    position: absolute;
+}
+#city{
+    width: 100%;
+    position: absolute;
+    margin-top: 175px;
+}
+#sun{
+    width: 80px;
+    position: absolute;
+    margin-top: 100px;
+    animation-name: sunmove;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+}
+@keyframes sunmove{
+    0%{
+        
+        right: -100%;
+    }
+    50%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+        
+    }
+}
+#road{
+    position: absolute;
+    margin-top: 446px;
+    height: 200px;
+    animation-name: moveroad;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+@keyframes moveroad{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+#car{
+    position: absolute;
+    width: 370px;
+    margin-top: 360px;
+    margin-left: 435px;
+}
+#flag{
+    position: absolute;
+    height: 60px;
+    margin-top: 368px;
+    margin-left: 730px;
+}
+#wheel{
+    position: absolute;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 469px;
+    margin-top: 443px;
+}
+#wheel1{
+    height: 63px;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }  
+    100%{
+        transform: rotate(360deg);
+    }
+}

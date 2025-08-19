@@ -1,0 +1,52 @@
+*{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+li{
+    margin-left: 650px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+    transition: 3s;
+}
+#box1:hover {
+    width: 300px;
+    transition-duration: 4s;
+}
+#box2:hover {
+    width: 300px;
+    height: 300px;
+    transition-duration: 4s;
+}
+#box3:hover {
+    height: 300px;
+    transition-duration: 4s;
+}
+#box4:hover {
+    transform: scaleX(0.5);
+    transition-duration: 4s;
+}
+#box5:hover {
+   transform: scaleY(0.5);
+    transition-duration: 4s;
+}
+#box6:hover {
+    transform: rotate(90deg);
+    background-color: red;
+    transition-duration: 2s;
+}
+#box7:hover {
+    background-color: blue;
+    transition-duration: 4s;
+}
+a{
+    display: flex;
+    justify-self: center;
+    font-size: larger;
+    font-weight: bolder;
+}

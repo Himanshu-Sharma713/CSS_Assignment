@@ -1,0 +1,136 @@
+*{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+li{
+    margin-left: 450px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 30px 40px;
+    animation-duration: 5s;
+    animation-name: transform1;
+    animation-iteration-count: infinite;
+}
+@keyframes transform1{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: 30px 40px;
+    animation-duration: 5s;
+    animation-name: transform2;
+    animation-iteration-count: infinite;
+}
+@keyframes transform2{
+    0%{
+        transform: skewy(20deg);
+    }
+    50%{
+        transform: skewy(-20deg);
+    }
+    100%{
+        transform: skewy(20deg);
+    }
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 30px 40px;
+    animation-duration: 2s;
+    animation-name: transform3;
+    animation-iteration-count: infinite;
+}
+@keyframes transform3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 30px 40px;
+    border: 1px solid blue;
+    animation-duration: 5s;
+    animation-name: transform4;
+    animation-iteration-count: infinite;
+}
+@keyframes transform4{
+     0%{
+        transform: scaleY(1.0);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1.0);
+    }
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 30px 40px;
+    animation-duration: 5s;
+    animation-name: transform5;
+    animation-iteration-count: infinite;
+}
+@keyframes transform5{
+    0%{
+        transform: scaleX(1.0);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.0);
+    }
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 30px 40px;
+    animation-duration: 5s;
+    animation-name: transform6;
+    animation-iteration-count: infinite;
+}
+@keyframes transform6{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+a{
+    font-size: 200%;
+    display: flex;
+    justify-self: center;
+}
